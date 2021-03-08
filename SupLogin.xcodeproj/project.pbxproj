@@ -13,6 +13,10 @@
 		1FD042AF25E4F2130064FC0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FD042AD25E4F2130064FC0C /* Main.storyboard */; };
 		1FD042B125E4F2140064FC0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FD042B025E4F2140064FC0C /* Assets.xcassets */; };
 		1FD042B425E4F2140064FC0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FD042B225E4F2140064FC0C /* LaunchScreen.storyboard */; };
+		1FD042BC25E4F2780064FC0C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD042BB25E4F2780064FC0C /* SignUpViewController.swift */; };
+		1FD042BE25E4F2950064FC0C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD042BD25E4F2950064FC0C /* LoginViewController.swift */; };
+		1FD042C025E4F2AF0064FC0C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD042BF25E4F2AF0064FC0C /* HomeViewController.swift */; };
+		1FD042C325E5C8000064FC0C /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD042C225E5C8000064FC0C /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		1FD042B025E4F2140064FC0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FD042B325E4F2140064FC0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FD042B525E4F2140064FC0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FD042BB25E4F2780064FC0C /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		1FD042BD25E4F2950064FC0C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1FD042BF25E4F2AF0064FC0C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1FD042C225E5C8000064FC0C /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,35 @@
 		1FD042A625E4F2130064FC0C /* SupLogin */ = {
 			isa = PBXGroup;
 			children = (
+				1FD042C425E5C8140064FC0C /* Helpers */,
+				1FD042C125E4F2BE0064FC0C /* ViewControllers */,
 				1FD042A725E4F2130064FC0C /* AppDelegate.swift */,
 				1FD042A925E4F2130064FC0C /* SceneDelegate.swift */,
-				1FD042AB25E4F2130064FC0C /* ViewController.swift */,
 				1FD042AD25E4F2130064FC0C /* Main.storyboard */,
 				1FD042B025E4F2140064FC0C /* Assets.xcassets */,
 				1FD042B225E4F2140064FC0C /* LaunchScreen.storyboard */,
 				1FD042B525E4F2140064FC0C /* Info.plist */,
 			);
 			path = SupLogin;
+			sourceTree = "<group>";
+		};
+		1FD042C125E4F2BE0064FC0C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1FD042AB25E4F2130064FC0C /* ViewController.swift */,
+				1FD042BB25E4F2780064FC0C /* SignUpViewController.swift */,
+				1FD042BD25E4F2950064FC0C /* LoginViewController.swift */,
+				1FD042BF25E4F2AF0064FC0C /* HomeViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1FD042C425E5C8140064FC0C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1FD042C225E5C8000064FC0C /* Utilities.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +168,11 @@
 			files = (
 				1FD042AC25E4F2130064FC0C /* ViewController.swift in Sources */,
 				1FD042A825E4F2130064FC0C /* AppDelegate.swift in Sources */,
+				1FD042C325E5C8000064FC0C /* Utilities.swift in Sources */,
+				1FD042BC25E4F2780064FC0C /* SignUpViewController.swift in Sources */,
+				1FD042BE25E4F2950064FC0C /* LoginViewController.swift in Sources */,
 				1FD042AA25E4F2130064FC0C /* SceneDelegate.swift in Sources */,
+				1FD042C025E4F2AF0064FC0C /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
