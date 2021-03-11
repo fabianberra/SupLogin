@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>346509653511-fl933iuo2kml296okemnjb536puclm3n.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.346509653511-fl933iuo2kml296okemnjb536puclm3n</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBbTZ3IED7eH_mFfTSv3RMcjqvqdxY3hwU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>346509653511</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>fabian.SupLogin</string>
+	<key>PROJECT_ID</key>
+	<string>supparaply</string>
+	<key>STORAGE_BUCKET</key>
+	<string>supparaply.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:346509653511:ios:9db640fb6aa3de4c301ca2</string>
+</dict>
+</plist>

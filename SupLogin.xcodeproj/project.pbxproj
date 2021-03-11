@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F545EBE25FA0E9B00245190 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F545EBD25FA0E9B00245190 /* Constants.swift */; };
+		1F895B2325F76DBB006058F5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F895B2225F76DBB006058F5 /* GoogleService-Info.plist */; };
 		1FD042A825E4F2130064FC0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD042A725E4F2130064FC0C /* AppDelegate.swift */; };
 		1FD042AA25E4F2130064FC0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD042A925E4F2130064FC0C /* SceneDelegate.swift */; };
 		1FD042AC25E4F2130064FC0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD042AB25E4F2130064FC0C /* ViewController.swift */; };
@@ -17,9 +19,14 @@
 		1FD042BE25E4F2950064FC0C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD042BD25E4F2950064FC0C /* LoginViewController.swift */; };
 		1FD042C025E4F2AF0064FC0C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD042BF25E4F2AF0064FC0C /* HomeViewController.swift */; };
 		1FD042C325E5C8000064FC0C /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD042C225E5C8000064FC0C /* Utilities.swift */; };
+		E70A549ACFE9DF64148F032F /* Pods_SupLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F2F7303AF8562B849398E0 /* Pods_SupLogin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05F2F7303AF8562B849398E0 /* Pods_SupLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SupLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BD7FCAEC318F27E8E11E774 /* Pods-SupLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupLogin.debug.xcconfig"; path = "Target Support Files/Pods-SupLogin/Pods-SupLogin.debug.xcconfig"; sourceTree = "<group>"; };
+		1F545EBD25FA0E9B00245190 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1F895B2225F76DBB006058F5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1FD042A425E4F2130064FC0C /* SupLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SupLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FD042A725E4F2130064FC0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FD042A925E4F2130064FC0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,6 +39,7 @@
 		1FD042BD25E4F2950064FC0C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1FD042BF25E4F2AF0064FC0C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		1FD042C225E5C8000064FC0C /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		51DD460D47FC69D1E527EDFB /* Pods-SupLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupLogin.release.xcconfig"; path = "Target Support Files/Pods-SupLogin/Pods-SupLogin.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E70A549ACFE9DF64148F032F /* Pods_SupLogin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +59,8 @@
 			children = (
 				1FD042A625E4F2130064FC0C /* SupLogin */,
 				1FD042A525E4F2130064FC0C /* Products */,
+				CC2260B27D3F6EE1FE5F4F12 /* Pods */,
+				A52D8B631953F9E666D7B7C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +83,7 @@
 				1FD042B025E4F2140064FC0C /* Assets.xcassets */,
 				1FD042B225E4F2140064FC0C /* LaunchScreen.storyboard */,
 				1FD042B525E4F2140064FC0C /* Info.plist */,
+				1F895B2225F76DBB006058F5 /* GoogleService-Info.plist */,
 			);
 			path = SupLogin;
 			sourceTree = "<group>";
@@ -91,8 +103,26 @@
 			isa = PBXGroup;
 			children = (
 				1FD042C225E5C8000064FC0C /* Utilities.swift */,
+				1F545EBD25FA0E9B00245190 /* Constants.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A52D8B631953F9E666D7B7C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05F2F7303AF8562B849398E0 /* Pods_SupLogin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC2260B27D3F6EE1FE5F4F12 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1BD7FCAEC318F27E8E11E774 /* Pods-SupLogin.debug.xcconfig */,
+				51DD460D47FC69D1E527EDFB /* Pods-SupLogin.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,9 +132,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FD042B825E4F2140064FC0C /* Build configuration list for PBXNativeTarget "SupLogin" */;
 			buildPhases = (
+				0CC8CF5EDDF4E9F6C47220C4 /* [CP] Check Pods Manifest.lock */,
 				1FD042A025E4F2130064FC0C /* Sources */,
 				1FD042A125E4F2130064FC0C /* Frameworks */,
 				1FD042A225E4F2130064FC0C /* Resources */,
+				CE4DB69B83115C8DBA6303E7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,12 +186,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FD042B425E4F2140064FC0C /* LaunchScreen.storyboard in Resources */,
+				1F895B2325F76DBB006058F5 /* GoogleService-Info.plist in Resources */,
 				1FD042B125E4F2140064FC0C /* Assets.xcassets in Resources */,
 				1FD042AF25E4F2130064FC0C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CC8CF5EDDF4E9F6C47220C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SupLogin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE4DB69B83115C8DBA6303E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SupLogin/Pods-SupLogin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SupLogin/Pods-SupLogin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SupLogin/Pods-SupLogin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1FD042A025E4F2130064FC0C /* Sources */ = {
@@ -173,6 +248,7 @@
 				1FD042BE25E4F2950064FC0C /* LoginViewController.swift in Sources */,
 				1FD042AA25E4F2130064FC0C /* SceneDelegate.swift in Sources */,
 				1FD042C025E4F2AF0064FC0C /* HomeViewController.swift in Sources */,
+				1F545EBE25FA0E9B00245190 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +390,7 @@
 		};
 		1FD042B925E4F2140064FC0C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BD7FCAEC318F27E8E11E774 /* Pods-SupLogin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -332,6 +409,7 @@
 		};
 		1FD042BA25E4F2140064FC0C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51DD460D47FC69D1E527EDFB /* Pods-SupLogin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
