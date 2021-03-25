@@ -13,17 +13,11 @@ import Firebase
 class LoginViewController: UIViewController {
     
     
-    
-    
     @IBOutlet weak var emailTextField: UITextField!
-    
     
     @IBOutlet weak var passwordTextField: UITextField!
     
-    
     @IBOutlet weak var loginButton: UIButton!
-    
-    
     
     @IBOutlet weak var errorLabel: UILabel!
     
@@ -36,6 +30,7 @@ class LoginViewController: UIViewController {
         setUpElements()
     }
     
+    
     func setUpElements() {
         
         //göm felmeddelandet
@@ -47,23 +42,16 @@ class LoginViewController: UIViewController {
         Utilities.styleFilledButton(loginButton)
     
     }
-    
 
-
-    
     
     @IBAction func loginTapped(_ sender: Any) {
         
         //validate txtfield
-        
         let email = emailTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
         
         let password = passwordTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
         
-    
-        
         //signing in the user
-        
         Auth.auth().signIn(withEmail: email, password: password) { (result, error) in
             if error != nil {
                 
@@ -79,7 +67,6 @@ class LoginViewController: UIViewController {
                 self.view.window?.makeKeyAndVisible()
                 
             }
-            
         }
     }
     

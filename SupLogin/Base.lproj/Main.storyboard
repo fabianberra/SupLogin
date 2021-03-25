@@ -121,13 +121,19 @@
                                     <action selector="didTapButton" destination="o08-XW-MRa" eventType="touchUpInside" id="hkD-KP-rJj"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8gs-US-zkN" customClass="logOutTapped">
+                                <rect key="frame" x="352" y="64" width="52" height="30"/>
+                                <state key="normal" title="Log out"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="UbB-jy-umF"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="g9T-jd-QNM" firstAttribute="centerX" secondItem="p43-3K-AzY" secondAttribute="centerX" id="1JY-iv-hYc"/>
+                            <constraint firstItem="UbB-jy-umF" firstAttribute="trailing" secondItem="8gs-US-zkN" secondAttribute="trailing" constant="10" id="PjG-OL-dE7"/>
                             <constraint firstItem="g9T-jd-QNM" firstAttribute="centerY" secondItem="p43-3K-AzY" secondAttribute="centerY" id="g2c-Ze-F4Y"/>
                             <constraint firstItem="wBC-bx-oaF" firstAttribute="centerX" secondItem="p43-3K-AzY" secondAttribute="centerX" id="iy7-m9-KdC"/>
+                            <constraint firstItem="8gs-US-zkN" firstAttribute="top" secondItem="UbB-jy-umF" secondAttribute="top" constant="20" id="jEr-CB-DPP"/>
                             <constraint firstItem="wBC-bx-oaF" firstAttribute="top" secondItem="UbB-jy-umF" secondAttribute="top" constant="15" id="yae-1K-AJO"/>
                         </constraints>
                     </view>
