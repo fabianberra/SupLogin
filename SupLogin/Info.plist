@@ -62,5 +62,7 @@
 	</array>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>Uploading profile pictures require access to photo library</string>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
 </dict>
 </plist>

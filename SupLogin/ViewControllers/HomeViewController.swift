@@ -17,9 +17,24 @@ class HomeViewController: UIViewController, UIImagePickerControllerDelegate & UI
     override func viewDidLoad() {
         super.viewDidLoad()
     
+        
+        // Hälsar välkommen
+        let label = UILabel(frame: CGRect(x: 0, y: 0, width: 200, height: 21))
+        label.center = CGPoint(x: 160, y: 285)
+        label.textAlignment = .center
+        label.text = Auth.auth().currentUser?.uid
+        self.view.addSubview(label)
+    
+    
     }
     
-   
+    // Hämtar user id
+    @IBAction func fetchName(){
+        let userID : String = (Auth.auth().currentUser?.uid)!
+            print("Current user ID is " + userID)
+    }
+    
+    
     // Imagepicker för profilbilder
     @IBOutlet weak var profilePictureView: UIImageView!
     
@@ -40,48 +55,9 @@ class HomeViewController: UIViewController, UIImagePickerControllerDelegate & UI
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         if let image = info[UIImagePickerController.InfoKey(rawValue: "UIImagePickerControllerEditedImage")] as? UIImage {
             profilePictureView.image = image
-        }
+            }
+        
         picker.dismiss(animated: true, completion: nil)
     }
-    
-    /*
-    let storageRef = Storage.storage().reference(forURL:"//supparaply.appspot.com")
-    let storageProfileRef = storageRef.child("profile").child(authData.user.uid)
-    
-    private let storage = Storage.storage().reference()
-    
-    
-            storage.child("images/file.png").putData(imageData,
-                                                        metadata: nil,
-                                                        completion: { _, error in
-                                                            guard error == nil else {
-                                                                print("Failed to upload")
-                                                                return
-                                                            }
-                                                            self.storage.child("images/file.png").downloadURL(completion: { url, error in
-                                                                guard let url = url, error == nil else {
-                                                                    return
-                                                                }
-                                                                let urlString = url.absoluteString
-                                                                print("Download URL:")
-                                                            } )
-            })
-       
-        
-        }
-        
-    }
-    
-   
-    // Kollar om användaren är inloggad och sparar
-    func checkIfUserIsLoggedIn() {
-        if Auth.auth().currentUser?.uid == nil {
-            performSelector(#selector(handleLogout), withObject: nil, afterDelay: 0)
-        }
-    }
- */
-    
-    
+
 }
-
-

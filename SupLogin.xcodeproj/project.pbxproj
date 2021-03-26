@@ -19,6 +19,7 @@
 		1FD042BE25E4F2950064FC0C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD042BD25E4F2950064FC0C /* LoginViewController.swift */; };
 		1FD042C025E4F2AF0064FC0C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD042BF25E4F2AF0064FC0C /* HomeViewController.swift */; };
 		1FD042C325E5C8000064FC0C /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD042C225E5C8000064FC0C /* Utilities.swift */; };
+		A92DD243260CC8DC0009C17C /* SearchUsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92DD242260CC8DC0009C17C /* SearchUsersTableViewController.swift */; };
 		E70A549ACFE9DF64148F032F /* Pods_SupLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F2F7303AF8562B849398E0 /* Pods_SupLogin.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 		1FD042BF25E4F2AF0064FC0C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		1FD042C225E5C8000064FC0C /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		51DD460D47FC69D1E527EDFB /* Pods-SupLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupLogin.release.xcconfig"; path = "Target Support Files/Pods-SupLogin/Pods-SupLogin.release.xcconfig"; sourceTree = "<group>"; };
+		A92DD242260CC8DC0009C17C /* SearchUsersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUsersTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 		1FD0429B25E4F2130064FC0C = {
 			isa = PBXGroup;
 			children = (
+				A92DD242260CC8DC0009C17C /* SearchUsersTableViewController.swift */,
 				1FD042A625E4F2130064FC0C /* SupLogin */,
 				1FD042A525E4F2130064FC0C /* Products */,
 				CC2260B27D3F6EE1FE5F4F12 /* Pods */,
@@ -244,6 +247,7 @@
 				1FD042AC25E4F2130064FC0C /* ViewController.swift in Sources */,
 				1FD042A825E4F2130064FC0C /* AppDelegate.swift in Sources */,
 				1FD042C325E5C8000064FC0C /* Utilities.swift in Sources */,
+				A92DD243260CC8DC0009C17C /* SearchUsersTableViewController.swift in Sources */,
 				1FD042BC25E4F2780064FC0C /* SignUpViewController.swift in Sources */,
 				1FD042BE25E4F2950064FC0C /* LoginViewController.swift in Sources */,
 				1FD042AA25E4F2130064FC0C /* SceneDelegate.swift in Sources */,
